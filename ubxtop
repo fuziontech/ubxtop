@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""CLI entrypoint for ubxtop."""
+
+import sys
+from gps_tui import main
+
+if __name__ == "__main__":
+    sys.exit(main())
